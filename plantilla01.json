@@ -1,0 +1,317 @@
+{
+    "name": "Generated Templated",
+    "metadata-version": 1,
+    "author": "Leancy Bacaro Rojo",
+    "platforms": [
+        "App Inventor",
+        "Kodular",
+        "Niotron"
+    ],
+    "extensions": {},
+    "keys": [
+        "id",
+        "BackgroundColor",
+        "CT01",
+        "CT02",
+        "CT03",
+        "CT04",
+        "CT07",
+        "CT08"
+    ],
+    "components": [
+        {
+            "id": "FR01000000{id}",
+            "type": "VerticalArrangement",
+            "properties": {
+                "Height": -2,
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id": "DV01000000{id}",
+                    "type": "VerticalArrangement",
+                    "properties": {
+                        "BackgroundColor": "{BackgroundColor}",
+                        "Width": -2
+                    },
+                    "components": [
+                        {
+                            "id": "SP01000000{id}",
+                            "type": "SpaceView",
+                            "properties": {
+                                "Height": 5
+                            }
+                        },
+                        {
+                            "id": "DH01000000{id}",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "SP02000000{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Width": 10
+                                    }
+                                },
+                                {
+                                    "id": "CT01000000{id}",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "FontSize": 21,
+                                        "Width": -2,
+                                        "Hint": "Nuevo producto",
+                                        "HintColor": -18169091,
+                                        "InputType": 3,
+                                        "TextColor": -1,
+                                        "Text": "{CT01}"
+                                    }
+                                },
+                                {
+                                    "id": "CT02000000{id}",
+                                    "type": "TextBox",
+                                    "properties": {
+                                        "FontSize": 21,
+                                        "Width": -1030,
+                                        "Hint": "Precio",
+                                        "HintColor": -18169091,
+                                        "InputType": 8,
+                                        "TextAlignment": 2,
+                                        "TextColor": -1,
+                                        "Text": "{CT02}"
+                                    }
+                                },
+                                {
+                                    "id": "SP03000000{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Width": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "SP04000000{id}",
+                            "type": "SpaceView",
+                            "properties": {
+                                "Height": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "VS01000000{id}",
+                    "type": "VerticalScrollArrangement",
+                    "properties": {
+                        "Height": -2,
+                        "Width": -2
+                    },
+                    "components": [
+                        {
+                            "id": "DH02000000{id}",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "SP05000000{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Width": 10
+                                    }
+                                },
+                                {
+                                    "id": "DV02000000{id}",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "LB01000000{id}",
+                                            "type": "Label",
+                                            "properties": {
+                                                "FontBold": true,
+                                                "Width": -2,
+                                                "Text": "Inicio"
+                                            }
+                                        },
+                                        {
+                                            "id": "CT03000000{id}",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "FontSize": 18,
+                                                "Width": -2,
+                                                "InputType": 8,
+                                                "ReadOnly": true,
+                                                "TextAlignment": 2,
+                                                "Text": "{CT03}"
+                                            }
+                                        },
+                                        {
+                                            "id": "LB02000000{id}",
+                                            "type": "Label",
+                                            "properties": {
+                                                "FontBold": true,
+                                                "Width": -2,
+                                                "Text": "Venta"
+                                            }
+                                        },
+                                        {
+                                            "id": "CT07000000{id}",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "FontSize": 18,
+                                                "Width": -2,
+                                                "InputType": 8,
+                                                "ReadOnly": true,
+                                                "Text": "{CT07}",
+                                                "TextAlignment": 2
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "DV03000000{id}",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "LB03000000{id}",
+                                            "type": "Label",
+                                            "properties": {
+                                                "FontBold": true,
+                                                "Width": -2,
+                                                "Text": "Cierre"
+                                            }
+                                        },
+                                        {
+                                            "id": "CT04000000{id}",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "FontSize": 18,
+                                                "Width": -2,
+                                                "InputType": 8,
+                                                "Text": "{CT04}",
+                                                "TextAlignment": 2
+                                            }
+                                        },
+                                        {
+                                            "id": "LB04000000{id}",
+                                            "type": "Label",
+                                            "properties": {
+                                                "FontBold": true,
+                                                "Width": -2,
+                                                "Text": "Importe"
+                                            }
+                                        },
+                                        {
+                                            "id": "CT08000000{id}",
+                                            "type": "TextBox",
+                                            "properties": {
+                                                "FontSize": 18,
+                                                "Width": -2,
+                                                "InputType": 8,
+                                                "ReadOnly": true,
+                                                "Text": "{CT08}",
+                                                "TextAlignment": 2
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SP06000000{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Width": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "DH03000000{id}",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "Width": -2
+                            },
+                            "components": [
+                                {
+                                    "id": "SP07000000{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Width": 10
+                                    }
+                                },
+                                {
+                                    "id": "DT01000000{id}",
+                                    "type": "VerticalArrangement",
+                                    "properties": {
+                                        "Width": -2
+                                    },
+                                    "components": [
+                                        {
+                                            "id": "DVIN000000{id}",
+                                            "type": "VerticalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "LB05000000{id}",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "FontBold": true,
+                                                        "Width": -2,
+                                                        "Text": "Entradas"
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": "DVOU000000{id}",
+                                            "type": "VerticalArrangement",
+                                            "properties": {
+                                                "Width": -2
+                                            },
+                                            "components": [
+                                                {
+                                                    "id": "LB06000000{id}",
+                                                    "type": "Label",
+                                                    "properties": {
+                                                        "FontBold": true,
+                                                        "Width": -2,
+                                                        "Text": "Salidas"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "SP08000000{id}",
+                                    "type": "SpaceView",
+                                    "properties": {
+                                        "Width": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "DH04000000{id}",
+                            "type": "HorizontalArrangement",
+                            "properties": {
+                                "Height": 80,
+                                "Width": -2
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
