@@ -1,0 +1,48 @@
+{
+    "name": "Generated Templated",
+    "metadata-version": 1,
+    "author": "Leancy Bacaro Rojo",
+    "platforms": [
+        "App Inventor",
+        "Kodular",
+        "Niotron"
+    ],
+    "extensions": {},
+    "keys": [
+        "id",
+        "SalidaDetalle",
+        "SalidaCantidad"
+    ],
+    "components": [
+        {
+            "id": "DH06{id}",
+            "type": "HorizontalArrangement",
+            "properties": {
+                "Width": -2
+            },
+            "components": [
+                {
+                    "id": "CT09{id}",
+                    "type": "TextBox",
+                    "properties": {
+                        "FontSize": 18,
+                        "Width": -2,
+                        "InputType": 3,
+                        "Text": "{SalidaDetalle}"
+                    }
+                },
+                {
+                    "id": "CT10{id}",
+                    "type": "TextBox",
+                    "properties": {
+                        "FontSize": 18,
+                        "Width": -1030,
+                        "InputType": 8,
+                        "Text": "{SalidaCantidad}",
+                        "TextAlignment": 2
+                    }
+                }
+            ]
+        }
+    ]
+}
