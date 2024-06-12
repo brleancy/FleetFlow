@@ -161,7 +161,7 @@
                                             }
                                         },
                                         {
-                                            "id": "CT07000000{id}",
+                                            "id": "CT05000000{id}",
                                             "type": "TextBox",
                                             "properties": {
                                                 "FontSize": 18,
@@ -211,7 +211,7 @@
                                             }
                                         },
                                         {
-                                            "id": "CT08000000{id}",
+                                            "id": "CT06000000{id}",
                                             "type": "TextBox",
                                             "properties": {
                                                 "FontSize": 18,
